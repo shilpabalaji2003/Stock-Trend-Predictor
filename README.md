@@ -4,6 +4,11 @@ The entire project has been done using python. IDEs used: Jupyter notebook, VSCo
 Data Source: Yahoo finance data from 2012-2022
 ML model used: LSTM
 
+## Description of files in this project
+project.ipynb: A jupyter notebook that contains the source code for data visualizations, predictions and ML model training.
+keras_model.keras: This file contains the trained model which is then imported in app.py file to create the web app.
+app.py: This file contains the source code for making the web application using python's streamlit library.
+
 ## Libraries used
 Data analysis and predictions: pandas, pandas_datareader, numpy, matplotlib, yfinance, keras, tensorflow, datetime
 Web application: streamlit
